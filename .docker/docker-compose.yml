@@ -1,0 +1,20 @@
+version: '3.5'
+
+services:
+  translator-api:
+    container_name: translator-api
+    build:
+      context: ../
+      dockerfile: .docker/java/Dockerfile
+    restart: on-failure
+    ports:
+      - "8080:8080"
+    working_dir: /var/www/translator-api
+    volumes:
+      - ../:/var/www/translator-api
+    networks:
+      - translator-network-api
+    tty: true
+networks:
+  translator-network-api:
+    name: translator-network
