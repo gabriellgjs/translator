@@ -46,9 +46,9 @@ make start
 
 - Retorna  a tradução
 - Os dados obrigatórios são:
-    * `lang_from`: o idioma de original
-    * `lang_to`: o idioma para qual vai ser traduzido
-    * `text`: o texto a ser traduzido
+    * <p> `lang_from`: o idioma de original <a href="#enuns">(Enum de String)</a> </p>
+    * <p> `lang_to`: o idioma para qual vai ser traduzido <a href="#enuns">(Enum de String)</a> </p>
+    * <p> `text`: o texto a ser traduzido (String) </p>
   
   <br/>
 
@@ -74,7 +74,10 @@ make start
 <br/>
 
 ---
-## Idiomas Suportados
+
+<h2 id="enuns"> Idiomas Suportados </h2> 
+
+
 | Idioma      | Enum             |
 |:------------|:-----------------|
 | Russo       | RUSSIAN          |
