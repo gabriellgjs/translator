@@ -2,10 +2,14 @@
 
 Projeto de um backend para realização de traduções.
 
+<br/>
+
 ## 🛠 Tecnologias
 
 - Spring Boot
 - Java
+
+<br/>
 
 ## Instalação
 
@@ -28,6 +32,7 @@ docker-compose -f .docker/docker-compose.yml up -d --build
 make start
 ```
 
+<br/>
 
 ---
 ## Rotas
