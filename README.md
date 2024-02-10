@@ -73,7 +73,7 @@ make start
 | Idioma      | Enum             |
 |:------------|:-----------------|
 | Russo       | RUSSIAN          |
-| InglêS      | ENGLISH          |
+| Inglês      | ENGLISH          |
 | Árabe       | ARABIC           |
 | Azerbaijano | AZERBAIJANI      |
 | Catalã      | CATALAN          |
