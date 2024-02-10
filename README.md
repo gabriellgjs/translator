@@ -27,7 +27,7 @@ docker-compose -f .docker/docker-compose.yml up -d --build
 ```
 <br/>
 
->Ou se preferir use o Make
+>Ou se preferir use o Make:
 ```
 make start
 ```
