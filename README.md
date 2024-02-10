@@ -12,22 +12,22 @@ Projeto de um backend para realização de traduções.
 <br/>
 
 ## Instalação
+<br/>
 
 > Começaramos clonando o projeto e acessando a pasta do projeto:
+```
+git clone https://github.com/gabriellgjs/translator && cd translator
+```
 
-```
-git clone https://github.com/gabriellgjs/translator &&
-cd translator
-```
+<br/>
 
 >Criando o ambiente do projeto:
-
 ```
 docker-compose -f .docker/docker-compose.yml up -d --build
 ```
+<br/>
 
 >Ou se preferir use o Make
-
 ```
 make start
 ```
@@ -108,4 +108,5 @@ make start
 | Turco       | TURKISH          |
 | Ucraniano   | UKRAINIAN        |
 
+<br/>
 
