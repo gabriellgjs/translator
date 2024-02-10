@@ -46,9 +46,9 @@ make start
 
 - Retorna  a tradução
 - Os dados obrigatórios são:
-    * <p> `lang_from`: o idioma de original <a href="#enuns">(Enum de String)</a> </p>
-    * <p> `lang_to`: o idioma para qual vai ser traduzido <a href="#enuns">(Enum de String)</a> </p>
-    * <p> `text`: o texto a ser traduzido (String) </p>
+    *  `lang_from`: o idioma de original <a href="#enuns">(Enum de String)</a>
+    *  `lang_to`: o idioma para qual vai ser traduzido <a href="#enuns">(Enum de String)</a>
+    *  `text`: o texto a ser traduzido (String) 
   
   <br/>
 
